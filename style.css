@@ -1,0 +1,63 @@
+:root {
+    --main-bg-color: #FFFFFF;
+    --pill-text-color: #883AE1;
+    --pill-bg-color: #E6D6FC;
+    --title-color: #20293A;
+    --paragraph-color: #6C727F;
+    --divisor-color: #E5EAF0;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-flow: column wrap;
+    height: 90vh;
+    align-content: center;
+    justify-content: center;
+}
+
+section {
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+img {
+    height: 152px;
+    width: 336px;
+    border-radius: 16px;
+}
+
+.pill-design {
+    font-family: 'Sora';
+    font-size: 0.625rem;
+    border-radius: 16px;
+    width: 45px;
+    height: 13px;
+    padding-left: 10px;
+    color: var(--pill-text-color);
+    background-color: var(--pill-bg-color);
+}
+
+h2 {
+    font-family: "Sora";
+    font-size: 1.125rem;
+    color: var(--title-color);
+}
+
+p {
+    font-family: 'Sora';
+    font-size: 0.875rem;
+    width: 336px;
+    color: var(--paragraph-color)
+}
+
+span {
+    display: block;
+    border: .1em solid var(--divisor-color);
+}
+
+.name-footer {
+    font-family: 'Sora';
+    font-size: 0.625rem;
+}
